@@ -6,12 +6,13 @@
   }
   
   body {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-top: 60px;
     padding-bottom: 40px;
   }
   
   header, footer {
+    font-family: 'Bungee Tint', cursive;
     position: fixed;
     width: 100%;
     background: #333;
@@ -41,7 +42,7 @@
   }
   
   main {
-    padding: 30px;
+    padding: 50px;
     max-width: 1200px;
     margin: 0 auto;
   }
@@ -119,5 +120,11 @@
       padding: 10px;
       margin-bottom: 20px;
     }
+  }
+
+  #Copyright {
+    font-size: 10px;
+    margin-top: 10px;
+    text-align: center;
   }
   
